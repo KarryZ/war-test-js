@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <script src="js/index.js"></script>
+    </head>
+    <body>
+       
+<form class="action-radio"> 
+<input type="radio" class="standart" name="category"  onclick="countExperience(this)">Стандартная<br> 
+<input type="radio" class="elite" name="category"  onclick="countExperience(this)">Элитная<br> 
+<input type="radio" class="premium" name="category" onclick="countExperience(this)">Премиумная<br> 
+</form>
+<h1>Количество боев</h1>
+ <input type="range" id="slide1" min="0" max="300" value=150 step=1 onchange="printValue('slide1', 'rangeValue1')">
+<input type="text" id="rangeValue1" value=150  onchange="slideValue('slide1', 'rangeValue1');">
+<h1>Опыт танка</h1>
+<div class="resultValue"></div>     
+      
+       
+      
+
+       
+       
+
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    </body>
+
+</html>
