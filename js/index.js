@@ -11,8 +11,6 @@ function slideValue(sliderID, rangeValue){
 
 window.onload = function() { printValue('slide1', 'rangeValue1'); }
 
-
-
 function countExperience(target) {
      var target = target.classList;
      var  sumButtle = document.getElementById("rangeValue1").value;
